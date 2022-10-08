@@ -1,0 +1,44 @@
+/* Estilos para colores */
+/* Podemos usar coolors.co para buscar paletas */
+.colores {
+    color: orangered;
+}
+
+.color-hexadecimal {
+    color: aqua;
+}
+
+.color-rgb {
+    color: rgb(53, 71, 226);
+}
+
+/* El alpha sirve para la transparencia */
+.color-rgba {
+    color: rgba(10, 10, 10, 0.85);
+}
+
+
+/* Fondos */
+.fondo {
+    background-color: cornflowerblue;
+    /* background-image: url("");
+    background-position: center center;  */
+}
+
+/* TAMAÑOS */
+.ancho {
+    background-color: blueviolet;
+    width: 100px;
+}
+
+.alto {
+    background-color: cadetblue;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+}

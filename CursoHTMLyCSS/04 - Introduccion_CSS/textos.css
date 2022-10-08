@@ -1,0 +1,9 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 300;
+}
+/* En caso quiera extraer fuentes puedo usar fonts.google.com 
+Selecciona solo las fuentes que vayas a usar porque sino se ralentiza la web 
+Lo recomendado es importarlos con el @import que te aparece en dicha página para no ensuciar el HTML
+*/

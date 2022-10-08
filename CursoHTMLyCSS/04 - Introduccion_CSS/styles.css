@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* 
+para seleccionar ids se coloca un # antes del valor del id y antes del # puedo colocar un elemento para filtrar los elementos con dicho id
+*/
+#primera-noticia {
+    color: green;
+    font-size: 12px;
+}
+
+/* Para seleccionar las clases se coloca un punto antes del nombre de la clase */
+.encabezado {
+    color: darkmagenta;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/*
+Para seleccionar todos los elementos se usa el * (selector universal)
+*/
+* {
+    color: red;
+}
+
+/* 
+Para repetir un mismo estilo a varias etiquetas o clases se colocan separados por comas
+*/
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
+}
+
