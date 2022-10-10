@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        /* Se usa cuando el mouse se coloca encima */
+        .hover:hover {
+            background-color: blanchedalmond;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado p:first-child {
+            color: aliceblue;
+        }
+
+        a:link { /* Link no visitado todavia */
+            color: coral;
+        }
+
+        a:visited {
+            color: chocolate;
+        }
+
+        a:hover {
+            color: bisque;
+        }
+
+        a:active {
+            color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Magna et quis incididunt laborum.</p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a Google</a>
+    </div>
+</body>
+</html>
