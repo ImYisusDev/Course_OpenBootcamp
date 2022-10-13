@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-modern {
+    padding: 5px 20px;
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    /* border-bottom: 2px solid chocolate; */
+    /* transform: all 0.4s; */
+    transition: all 0.4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px coral ;
+    background-color: coral;
+    color: indigo;
+}
