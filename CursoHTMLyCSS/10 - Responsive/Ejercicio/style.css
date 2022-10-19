@@ -1,0 +1,51 @@
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+.seccion-principal {
+    flex-grow: 6;
+    background-color: red;
+}
+
+.barra-lateral {
+    display: flex;
+    background-color: chartreuse;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+.item {
+    background-color: coral;
+    color: white;
+    padding: 0.25rem;
+}
+
+@media (min-width: 640px) {
+    .item {
+        height: 25%;
+    }
+}
+
+
+/* Ancho menor a 640px */
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+    
+    .barra-lateral {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .item {
+        width: 25%;
+    }
+}
