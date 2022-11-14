@@ -1,0 +1,26 @@
+@use "sass:string";
+@use "sass:math";
+@use "sass:color";
+
+@debug "hola";
+@debug string.index("Helvetica Noue", "Noue");
+
+$string: "Helvetica";
+$newstring: string.insert($string, " Bold", 10);
+
+@debug $newstring;
+@debug string.length($newstring);
+@debug string.slice($newstring, 5, 9);
+@debug string.to-upper-case("Roboto Mono");
+
+
+/// Funciones con números
+@debug math.$e;
+@debug math.$pi;
+
+@debug math.ceil(4.6);
+
+
+
+/// Funciones con colores
+$color: #d669d6dd;
