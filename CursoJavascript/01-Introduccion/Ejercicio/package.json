@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "Mi primer ejercicio con Node de OpenBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "print": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejercicio",
+    "javascript"
+  ],
+  "author": "Jesus Rojas",
+  "license": "ISC"
+}
